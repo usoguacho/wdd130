@@ -1,3 +1,23 @@
+:root {
+    --color-primary: darkblue;
+    --color-accent: rgb(213, 11, 11);
+    --color-accent-text: rgb(196, 196, 205);
+    --color-light: white;
+    --color-shadow: gray;
+    --color-border: black;
+
+    --spacing-sm: 10px;
+    --spacing-md: 20px;
+    --spacing-lg: 1rem;
+    --spacing-xl: 3rem;
+    --spacing-xxl: 5rem;
+
+    --max-width-main: 800px;
+    --width-aside: 400px;
+    --width-aside-img: 200px;
+    --width-main-img: 150px;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
