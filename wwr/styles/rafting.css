@@ -52,7 +52,7 @@ header nav a {
 
 header nav a:hover {
     color: var(--secondary-color);
-    /* ✅ --secondary-color now used */
+
 }
 
 h1,
