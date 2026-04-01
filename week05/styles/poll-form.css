@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #f0f4f8;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0a3d62;
+    padding: 1.5rem 2rem;
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    color: #ffffff;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+form {
+    width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 2px solid #1e8bc3;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: grid;
+    gap: 1.5rem;
+}
+
+fieldset {
+    border: 1px solid #ccd6e0;
+    border-radius: 6px;
+    padding: 1rem 1.5rem;
+    display: grid;
+    gap: 0.75rem;
+}
+
+fieldset legend {
+    font-family: Georgia, serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #0a3d62;
+    padding: 0 0.5rem;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Arial, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 0.75rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+input,
+select,
+textarea {
+    padding: 0.6rem 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #aab8c2;
+    border-radius: 4px;
+    background-color: #f8fafc;
+    width: 100%;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #1e8bc3;
+    background-color: #ffffff;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+button {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #0a3d62;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 50%;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #e67e22;
+}
+
+footer {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.form-item:has(textarea) {
+    align-items: start;
+}
+
+.column1 {
+    grid-template-columns: 1fr 3fr;
+    margin: 0.4rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.4rem 0;
+}
