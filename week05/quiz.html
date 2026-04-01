@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book of Mormon Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <header>
+        <h1>Book of Mormon Quiz</h1>
+    </header>
+
+    <main>
+        <form>
+
+
+            <fieldset>
+                <legend>Question 1</legend>
+                <label for="q1">Who was the first prophet in The Book of Mormon,
+                    who led his family out of Jerusalem around 600 B.C.?</label>
+                <input type="text" id="q1" name="q1" placeholder="Enter prophet's name" required>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Question 2</legend>
+                <label for="q2">In your own words, describe the mission and teachings
+                    of the prophet Abinadi. What was his message and what happened to him?</label>
+                <textarea id="q2" name="q2" rows="5"
+                  placeholder="Write your answer here..."></textarea>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Question 3</legend>
+                <label for="q3">Which prophet received and translated the golden plates
+                    that became the Book of Mormon?</label>
+                <select id="q3" name="q3">
+                    <option value="">-- Select an answer --</option>
+                    <option value="moroni">Moroni</option>
+                    <option value="joseph-smith">Joseph Smith</option>
+                    <option value="mormon">Mormon</option>
+                    <option value="nephi">Nephi</option>
+                </select>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Question 4</legend>
+                <label for="q4">Approximately how many years did Mormon abridge
+                    and compile the records that make up the Book of Mormon?
+                    (Enter a number)</label>
+                <input type="number" id="q4" name="q4" min="0" max="1000"
+                  placeholder="Enter a number">
+            </fieldset>
+
+            <button type="submit">Submit Quiz</button>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Book of Mormon Prophets Quiz | Sam Tuala</p>
+    </footer>
+
+</body>
+
+</html>
