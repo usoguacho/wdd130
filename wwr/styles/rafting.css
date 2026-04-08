@@ -1,12 +1,12 @@
 :root {
     --primary-color: #0a3d62;
-    --secondary-color: #1e8bc3;
+    --secondary-color: #1565a0;
     --accent-color: #e67e22;
     --light-color: #f0f4f8;
     --dark-color: #1a1a2e;
     --text-color: #2c3e50;
     --white-color: #ffffff;
-    --overlay-color: rgba(10, 61, 98, 0.55);
+    --border-color: #bbbbbb;
     --body-font: 'Georgia', serif;
     --heading-font: 'Arial', sans-serif;
 }
@@ -313,7 +313,7 @@ footer p {
 .form-group input[type="email"],
 .form-group textarea {
     padding: 0.5rem 0.65rem;
-    border: 1px solid #bbb;
+    border: 1px solid var(--border-color);
     border-radius: 4px;
     font-family: var(--body-font);
     font-size: 0.9rem;

@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | Wild River Rafting Co.</title>
+    <title>Contact Us and the Wild River Rafting Co.</title>
     <meta name="description"
-      content="123 Rapid Rush Road Moab, Utah 84532; Phone: (435) 555-0199; Toll-Free: (800) 555-0199; Email: info@wildriverrafting.com">
+      content="Contact Wild River Rafting Co. to book your next adventure, ask about our trips, or connect with our expert guides. We are ready to help">
     <meta name="author" content="Sam Tuala">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -44,8 +44,7 @@
             <div class="map-container">
                 <iframe title="Wild River Rafting Co. Location"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24471.557623985!2d-109.5503!3d38.5733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8747a8a3e2f7f8df%3A0x1234567890abcdef!2sMoab%2C%20UT%2084532!5e0!3m2!1sen!2sus!4v1680000000000"
-                  width="100%" height="100%" allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade">
+                  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
 
@@ -70,15 +69,18 @@
                         <label>Message Purpose</label>
                         <div class="radio-group">
                             <label class="radio-label">
-                                <input type="radio" name="purpose" value="general" checked>
+                                <input type="radio" id="purpose-general" name="purpose"
+                                  value="general" checked>
                                 General Inquiry
                             </label>
                             <label class="radio-label">
-                                <input type="radio" name="purpose" value="reservation">
+                                <input type="radio" id="purpose-reservation" name="purpose"
+                                  value="reservation">
                                 Reservation Question
                             </label>
                             <label class="radio-label">
-                                <input type="radio" name="purpose" value="website">
+                                <input type="radio" id="purpose-website" name="purpose"
+                                  value="website">
                                 Website Suggestion
                             </label>
                         </div>
@@ -88,6 +90,13 @@
                         <label for="message">Message</label>
                         <textarea id="message" name="message" rows="5"
                           placeholder="Type your message here..."></textarea>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                            Please subscribe me to the monthly newsletter
+                        </label>
                     </div>
 
                     <div class="form-group checkbox-group">
@@ -137,13 +146,13 @@
         <p>&copy; 2026 Wild River Rafting Co. | Sam Tuala</p>
         <nav class="socialmedia">
             <a href="https://www.facebook.com" target="_blank">
-                <img src="images/facebook-square.svg" alt="Facebook">
+                <img src="images/facebook-square.svg" alt="Facebook-logo">
             </a>
             <a href="https://www.instagram.com" target="_blank">
-                <img src="images/instagram.svg" alt="Instagram">
+                <img src="images/instagram.svg" alt="Instagram-logo">
             </a>
             <a href="https://www.youtube.com" target="_blank">
-                <img src="images/youtube-square.svg" alt="YouTube">
+                <img src="images/youtube-square.svg" alt="YouTube-logo">
             </a>
         </nav>
     </footer>
