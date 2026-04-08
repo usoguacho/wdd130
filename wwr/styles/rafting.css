@@ -222,3 +222,210 @@ footer p {
 .socialmedia a {
     text-decoration: none;
 }
+
+/* =====================
+   CONTACT PAGE STYLES
+   ===================== */
+
+.contact-main {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+/* --- Company Info --- */
+.company-info {
+    text-align: center;
+}
+
+.company-info h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.75rem;
+}
+
+.company-info address {
+    font-style: normal;
+    line-height: 2;
+    font-family: var(--heading-font);
+    font-size: 0.95rem;
+}
+
+.company-info address a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.company-info address a:hover {
+    text-decoration: underline;
+}
+
+/* --- Map + Form Grid --- */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.map-container {
+    height: 430px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 3px solid var(--primary-color);
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+}
+
+/* --- Form --- */
+.form-container {
+    background-color: var(--white-color);
+    padding: 1.5rem;
+    border-radius: 4px;
+    border: 3px solid var(--primary-color);
+}
+
+.form-container h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1.25rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    margin-bottom: 1rem;
+}
+
+.form-group > label {
+    font-family: var(--heading-font);
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    padding: 0.5rem 0.65rem;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-family: var(--body-font);
+    font-size: 0.9rem;
+    background-color: var(--light-color);
+    color: var(--text-color);
+    transition: border-color 0.2s;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding-left: 0.25rem;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--heading-font);
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--heading-font);
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 0.7rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 4px;
+    font-family: var(--heading-font);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 0.5rem;
+}
+
+.submit-btn:hover {
+    background-color: var(--accent-color);
+}
+
+/* --- Team Section --- */
+.team-section {
+    background-color: var(--white-color);
+    padding: 2rem 1rem;
+    border-radius: 4px;
+}
+
+.team-section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+}
+
+.employee-card {
+    text-align: center;
+    border: 2px solid var(--secondary-color);
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: var(--light-color);
+}
+
+.employee-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.employee-card figcaption {
+    padding: 0.75rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.employee-card figcaption strong {
+    font-family: var(--heading-font);
+    font-size: 0.95rem;
+    color: var(--primary-color);
+}
+
+.employee-card figcaption span {
+    font-family: var(--heading-font);
+    font-size: 0.8rem;
+    color: var(--text-color);
+}
