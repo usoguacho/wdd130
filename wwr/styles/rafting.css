@@ -233,9 +233,7 @@ footer p {
     text-decoration: none;
 }
 
-/* =====================
-   CONTACT PAGE STYLES
-   ===================== */
+/* CONTACT PAGE STYLES */
 
 .contact-main {
     padding: 2rem 1rem;
@@ -244,7 +242,7 @@ footer p {
     gap: 2.5rem;
 }
 
-/* --- Company Info --- */
+/* Company Info */
 .company-info {
     text-align: center;
 }
@@ -270,7 +268,7 @@ footer p {
     text-decoration: underline;
 }
 
-/* --- Map + Form Grid --- */
+/*  Map + Form Grid  */
 .contact-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -292,7 +290,7 @@ footer p {
     display: block;
 }
 
-/* --- Form --- */
+/*  Form */
 .form-container {
     background-color: var(--white-color);
     padding: 1.5rem;
@@ -387,7 +385,7 @@ footer p {
     background-color: var(--accent-color);
 }
 
-/* --- Team Section --- */
+/*  Team Section */
 .team-section {
     background-color: var(--white-color);
     padding: 2rem 1rem;
@@ -440,11 +438,9 @@ footer p {
     color: var(--text-color);
 }
 
-/* =====================
-   HOME PAGE STYLES
-   ===================== */
+/* HOME PAGE STYLES */
 
-/* --- Hero --- */
+/*  Hero  */
 .home-hero {
     position: relative;
     overflow: hidden;
@@ -480,7 +476,7 @@ footer p {
     line-height: 1.6;
 }
 
-/* --- CTA Banner --- */
+/* CTA Banner  */
 .cta-banner {
     background-color: var(--accent-color);
     padding: 1.5rem 2rem;
@@ -525,7 +521,7 @@ footer p {
     color: var(--white-color);
 }
 
-/* --- Why Us Grid --- */
+/*  Why Us Grid  */
 .why-us-section {
     padding: 2.5rem 1rem;
 }
@@ -647,11 +643,9 @@ footer p {
     margin-top: 1rem;
 }
 
-/* =====================
-   TRIPS PAGE STYLES
-   ===================== */
+/*TRIPS PAGE STYLES */
 
-/* --- Hero --- */
+/*  Hero  */
 .trips-hero {
     position: relative;
     overflow: hidden;
@@ -694,7 +688,7 @@ footer p {
     max-width: 500px;
 }
 
-/* --- Trips CTA Banner --- */
+/* Trips CTA Banner */
 .trips-cta {
     background-color: var(--accent-color);
     padding: 1.5rem 2rem;
@@ -725,7 +719,7 @@ footer p {
     margin-top: 0;
 }
 
-/* --- Featured Expeditions --- */
+/* Featured Expeditions */
 .trips-section {
     padding: 2.5rem 1rem;
 }
@@ -817,7 +811,7 @@ footer p {
     line-height: 1.5;
 }
 
-/* --- Difficulty Badges --- */
+/*Difficulty Badges*/
 .trip-badge,
 .table-badge {
     display: inline-block;
@@ -844,7 +838,7 @@ footer p {
     color: #721c24;
 }
 
-/* --- Trips Table --- */
+/* Trips Table*/
 .trips-table-section {
     padding: 0 1rem 2.5rem;
 }
