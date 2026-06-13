@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Key dates, featured fixtures, and host stadiums for the 2026 FIFA World Cup across the United States, Canada, and Mexico.">
+  <meta name="author" content="Samuel">
+  <title>Schedule &amp; Venues | World Cup Pal</title>
+  <link rel="icon" href="images/logo.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/logo.jpg" alt="" width="36" height="36">
+        World Cup Pal
+      </a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">&#9776;</button>
+      <nav class="main-nav" aria-label="Main">
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="favorites.html">Favorites</a></li>
+          <li><a href="bracket.html">Bracket</a></li>
+          <li><a href="teams.html">Teams</a></li>
+          <li><a href="schedule.html" class="active">Schedule</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <h1>Schedule &amp; Venues</h1>
+        <p>The tournament runs from Thursday, June 11 to Sunday, July 19, 2026. The group stage
+          begins on June 11 and runs through June 27, followed by the knockout rounds. The opening
+          match is at Estadio Azteca in Mexico City, and the final is at MetLife Stadium in
+          East Rutherford, New Jersey.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Featured fixtures</h2>
+        <table class="schedule-table">
+          <caption>A selection of early-tournament matches (all dates in 2026).</caption>
+          <thead>
+            <tr>
+              <th scope="col">Date</th>
+              <th scope="col">Match</th>
+              <th scope="col">Host city</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>June 11</td><td>Mexico vs. South Africa (Opening match)</td><td>Mexico City</td></tr>
+            <tr><td>June 12</td><td>United States vs. Paraguay</td><td>Los Angeles</td></tr>
+            <tr><td>June 12</td><td>Canada vs. opponent to be confirmed</td><td>Toronto</td></tr>
+            <tr><td>June 14</td><td>Netherlands vs. Japan</td><td>Dallas</td></tr>
+            <tr><td>June 16</td><td>Argentina vs. Algeria</td><td>Kansas City</td></tr>
+            <tr><td>June 17</td><td>England vs. Croatia</td><td>Dallas</td></tr>
+            <tr><td>July 19</td><td>Final</td><td>New York / New Jersey</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Host venues</h2>
+        <p>Sixteen cities across three countries will host matches. Here are a few of the
+          landmark venues for the 2026 tournament.</p>
+        <div class="cards">
+          <article class="card">
+            <img src="images/azteca-stadium.jpg" alt="Estadio Azteca in Mexico City" width="400" height="240" loading="lazy">
+            <div class="card-body">
+              <h3>Estadio Azteca</h3>
+              <p>Mexico City, Mexico. Hosts the opening match and becomes the first stadium to
+                stage games at three men's World Cups.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/metlife-stadium.jpg" alt="MetLife Stadium in New Jersey" width="400" height="240" loading="lazy">
+            <div class="card-body">
+              <h3>MetLife Stadium</h3>
+              <p>East Rutherford, New Jersey. Hosts the final on July 19 and holds up to about
+                82,500 fans.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/att-stadium.jpg" alt="AT&amp;T Stadium in Arlington, Texas" width="400" height="240" loading="lazy">
+            <div class="card-body">
+              <h3>AT&amp;T Stadium</h3>
+              <p>Arlington, Texas. One of the busiest venues, hosting nine matches including a
+                semifinal.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/bmo-stadium.jpg" alt="BMO Field in Toronto" width="400" height="240" loading="lazy">
+            <div class="card-body">
+              <h3>BMO Field</h3>
+              <p>Toronto, Canada. Hosts Canada's matches, including the country's first home men's
+                World Cup game.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="tagline">World Cup Pal</p>
+      <p>Your friendly guide to the 2026 FIFA World Cup.</p>
+      <p>&copy; <span id="year"></span> World Cup Pal &middot; <a href="references.html">References</a></p>
+    </div>
+  </footer>
+</body>
+</html>

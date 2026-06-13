@@ -1,0 +1,722 @@
+[
+ {
+  "id": "A1",
+  "group": "A",
+  "home": "Mexico",
+  "away": "South Africa",
+  "kickoff": "2026-06-11T12:00:00-07:00",
+  "status": "FINAL",
+  "hs": 2,
+  "as": 0
+ },
+ {
+  "id": "A2",
+  "group": "A",
+  "home": "South Korea",
+  "away": "Czechia",
+  "kickoff": "2026-06-11T19:00:00-07:00",
+  "status": "FINAL",
+  "hs": 2,
+  "as": 1
+ },
+ {
+  "id": "A3",
+  "group": "A",
+  "home": "Czechia",
+  "away": "South Africa",
+  "kickoff": "2026-06-18T09:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "A4",
+  "group": "A",
+  "home": "Mexico",
+  "away": "South Korea",
+  "kickoff": "2026-06-18T18:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "A5",
+  "group": "A",
+  "home": "Czechia",
+  "away": "Mexico",
+  "kickoff": "2026-06-24T18:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "A6",
+  "group": "A",
+  "home": "South Africa",
+  "away": "South Korea",
+  "kickoff": "2026-06-24T18:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "B1",
+  "group": "B",
+  "home": "Canada",
+  "away": "Bosnia and Herzegovina",
+  "kickoff": "2026-06-12T12:00:00-07:00",
+  "status": "FINAL",
+  "hs": 1,
+  "as": 1
+ },
+ {
+  "id": "B2",
+  "group": "B",
+  "home": "Qatar",
+  "away": "Switzerland",
+  "kickoff": "2026-06-13T12:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "B3",
+  "group": "B",
+  "home": "Switzerland",
+  "away": "Bosnia and Herzegovina",
+  "kickoff": "2026-06-18T12:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "B4",
+  "group": "B",
+  "home": "Canada",
+  "away": "Qatar",
+  "kickoff": "2026-06-18T15:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "B5",
+  "group": "B",
+  "home": "Switzerland",
+  "away": "Canada",
+  "kickoff": "2026-06-24T12:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "B6",
+  "group": "B",
+  "home": "Bosnia and Herzegovina",
+  "away": "Qatar",
+  "kickoff": "2026-06-24T12:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "C1",
+  "group": "C",
+  "home": "Brazil",
+  "away": "Morocco",
+  "kickoff": "2026-06-13T15:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "C2",
+  "group": "C",
+  "home": "Haiti",
+  "away": "Scotland",
+  "kickoff": "2026-06-13T18:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "C3",
+  "group": "C",
+  "home": "Scotland",
+  "away": "Morocco",
+  "kickoff": "2026-06-19T15:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "C4",
+  "group": "C",
+  "home": "Brazil",
+  "away": "Haiti",
+  "kickoff": "2026-06-19T17:30:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "C5",
+  "group": "C",
+  "home": "Scotland",
+  "away": "Brazil",
+  "kickoff": "2026-06-24T15:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "C6",
+  "group": "C",
+  "home": "Morocco",
+  "away": "Haiti",
+  "kickoff": "2026-06-24T15:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "D1",
+  "group": "D",
+  "home": "United States",
+  "away": "Paraguay",
+  "kickoff": "2026-06-12T18:00:00-07:00",
+  "status": "FINAL",
+  "hs": 4,
+  "as": 1
+ },
+ {
+  "id": "D2",
+  "group": "D",
+  "home": "Australia",
+  "away": "Türkiye",
+  "kickoff": "2026-06-13T18:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "D3",
+  "group": "D",
+  "home": "United States",
+  "away": "Australia",
+  "kickoff": "2026-06-19T12:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "D4",
+  "group": "D",
+  "home": "Türkiye",
+  "away": "Paraguay",
+  "kickoff": "2026-06-19T21:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "D5",
+  "group": "D",
+  "home": "Türkiye",
+  "away": "United States",
+  "kickoff": "2026-06-25T19:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "D6",
+  "group": "D",
+  "home": "Paraguay",
+  "away": "Australia",
+  "kickoff": "2026-06-25T19:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "E1",
+  "group": "E",
+  "home": "Germany",
+  "away": "Curaçao",
+  "kickoff": "2026-06-14T10:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "E2",
+  "group": "E",
+  "home": "Ivory Coast",
+  "away": "Ecuador",
+  "kickoff": "2026-06-14T16:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "E3",
+  "group": "E",
+  "home": "Germany",
+  "away": "Ivory Coast",
+  "kickoff": "2026-06-20T13:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "E4",
+  "group": "E",
+  "home": "Ecuador",
+  "away": "Curaçao",
+  "kickoff": "2026-06-20T17:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "E5",
+  "group": "E",
+  "home": "Ecuador",
+  "away": "Germany",
+  "kickoff": "2026-06-25T13:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "E6",
+  "group": "E",
+  "home": "Curaçao",
+  "away": "Ivory Coast",
+  "kickoff": "2026-06-25T13:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "F1",
+  "group": "F",
+  "home": "Netherlands",
+  "away": "Japan",
+  "kickoff": "2026-06-14T13:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "F2",
+  "group": "F",
+  "home": "Sweden",
+  "away": "Tunisia",
+  "kickoff": "2026-06-14T19:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "F3",
+  "group": "F",
+  "home": "Netherlands",
+  "away": "Sweden",
+  "kickoff": "2026-06-20T10:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "F4",
+  "group": "F",
+  "home": "Tunisia",
+  "away": "Japan",
+  "kickoff": "2026-06-20T21:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "F5",
+  "group": "F",
+  "home": "Japan",
+  "away": "Sweden",
+  "kickoff": "2026-06-25T16:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "F6",
+  "group": "F",
+  "home": "Tunisia",
+  "away": "Netherlands",
+  "kickoff": "2026-06-25T16:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "G1",
+  "group": "G",
+  "home": "Belgium",
+  "away": "Egypt",
+  "kickoff": "2026-06-15T12:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "G2",
+  "group": "G",
+  "home": "Iran",
+  "away": "New Zealand",
+  "kickoff": "2026-06-15T18:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "G3",
+  "group": "G",
+  "home": "Belgium",
+  "away": "Iran",
+  "kickoff": "2026-06-21T12:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "G4",
+  "group": "G",
+  "home": "New Zealand",
+  "away": "Egypt",
+  "kickoff": "2026-06-21T18:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "G5",
+  "group": "G",
+  "home": "Egypt",
+  "away": "Iran",
+  "kickoff": "2026-06-26T20:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "G6",
+  "group": "G",
+  "home": "New Zealand",
+  "away": "Belgium",
+  "kickoff": "2026-06-26T20:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "H1",
+  "group": "H",
+  "home": "Spain",
+  "away": "Cape Verde",
+  "kickoff": "2026-06-15T09:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "H2",
+  "group": "H",
+  "home": "Saudi Arabia",
+  "away": "Uruguay",
+  "kickoff": "2026-06-15T15:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "H3",
+  "group": "H",
+  "home": "Spain",
+  "away": "Saudi Arabia",
+  "kickoff": "2026-06-21T09:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "H4",
+  "group": "H",
+  "home": "Uruguay",
+  "away": "Cape Verde",
+  "kickoff": "2026-06-21T15:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "H5",
+  "group": "H",
+  "home": "Cape Verde",
+  "away": "Saudi Arabia",
+  "kickoff": "2026-06-26T17:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "H6",
+  "group": "H",
+  "home": "Uruguay",
+  "away": "Spain",
+  "kickoff": "2026-06-26T17:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "I1",
+  "group": "I",
+  "home": "France",
+  "away": "Senegal",
+  "kickoff": "2026-06-16T12:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "I2",
+  "group": "I",
+  "home": "Iraq",
+  "away": "Norway",
+  "kickoff": "2026-06-16T15:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "I3",
+  "group": "I",
+  "home": "France",
+  "away": "Iraq",
+  "kickoff": "2026-06-22T14:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "I4",
+  "group": "I",
+  "home": "Norway",
+  "away": "Senegal",
+  "kickoff": "2026-06-22T17:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "I5",
+  "group": "I",
+  "home": "Norway",
+  "away": "France",
+  "kickoff": "2026-06-26T12:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "I6",
+  "group": "I",
+  "home": "Senegal",
+  "away": "Iraq",
+  "kickoff": "2026-06-26T12:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "J1",
+  "group": "J",
+  "home": "Argentina",
+  "away": "Algeria",
+  "kickoff": "2026-06-16T18:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "J2",
+  "group": "J",
+  "home": "Austria",
+  "away": "Jordan",
+  "kickoff": "2026-06-16T21:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "J3",
+  "group": "J",
+  "home": "Argentina",
+  "away": "Austria",
+  "kickoff": "2026-06-22T10:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "J4",
+  "group": "J",
+  "home": "Jordan",
+  "away": "Algeria",
+  "kickoff": "2026-06-22T20:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "J5",
+  "group": "J",
+  "home": "Algeria",
+  "away": "Austria",
+  "kickoff": "2026-06-27T19:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "J6",
+  "group": "J",
+  "home": "Jordan",
+  "away": "Argentina",
+  "kickoff": "2026-06-27T19:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "K1",
+  "group": "K",
+  "home": "Portugal",
+  "away": "DR Congo",
+  "kickoff": "2026-06-17T10:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "K2",
+  "group": "K",
+  "home": "Uzbekistan",
+  "away": "Colombia",
+  "kickoff": "2026-06-17T19:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "K3",
+  "group": "K",
+  "home": "Portugal",
+  "away": "Uzbekistan",
+  "kickoff": "2026-06-23T10:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "K4",
+  "group": "K",
+  "home": "Colombia",
+  "away": "DR Congo",
+  "kickoff": "2026-06-23T19:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "K5",
+  "group": "K",
+  "home": "Colombia",
+  "away": "Portugal",
+  "kickoff": "2026-06-27T16:30:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "K6",
+  "group": "K",
+  "home": "DR Congo",
+  "away": "Uzbekistan",
+  "kickoff": "2026-06-27T16:30:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "L1",
+  "group": "L",
+  "home": "England",
+  "away": "Croatia",
+  "kickoff": "2026-06-17T13:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "L2",
+  "group": "L",
+  "home": "Ghana",
+  "away": "Panama",
+  "kickoff": "2026-06-17T16:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "L3",
+  "group": "L",
+  "home": "England",
+  "away": "Ghana",
+  "kickoff": "2026-06-23T13:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "L4",
+  "group": "L",
+  "home": "Panama",
+  "away": "Croatia",
+  "kickoff": "2026-06-23T16:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "L5",
+  "group": "L",
+  "home": "Panama",
+  "away": "England",
+  "kickoff": "2026-06-27T14:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ },
+ {
+  "id": "L6",
+  "group": "L",
+  "home": "Croatia",
+  "away": "Ghana",
+  "kickoff": "2026-06-27T14:00:00-07:00",
+  "status": "SCHEDULED",
+  "hs": null,
+  "as": null
+ }
+]

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Live 2026 World Cup group standings and the road to the final: top two of each group advance to the Round of 32 plus the eight best third-place teams.">
+  <meta name="author" content="Samuel">
+  <title>Standings &amp; Bracket | World Cup Pal</title>
+  <link rel="icon" href="images/logo.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/main.js" defer></script>
+  <script src="scripts/data.js" defer></script>
+  <script src="scripts/bracket.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="images/logo.jpg" alt="" width="36" height="36"> World Cup Pal</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">&#9776;</button>
+      <nav class="main-nav" aria-label="Main">
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="favorites.html">Favorites</a></li>
+          <li><a href="bracket.html" class="active">Bracket</a></li>
+          <li><a href="teams.html">Teams</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <h1>Standings &amp; Bracket</h1>
+        <p>Live group tables. The top two teams in each group advance to the Round of 32, joined by
+          the eight best third-place finishers.</p>
+        <div class="legend">
+          <span class="legend-item"><span class="swatch q"></span> Advances (top 2)</span>
+          <span class="legend-item"><span class="swatch c"></span> 3rd &mdash; best-third race</span>
+        </div>
+        <div id="standings-grid" class="standings-grid">Loading standings&hellip;</div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <h2>Through to the Round of 32</h2>
+        <div id="qualified" class="qualified">Loading&hellip;</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Road to the Final</h2>
+        <p>Every knockout match with its Pacific kickoff time and host city. Group-fed slots fill in
+          with real teams the moment a group is decided &mdash; the rest show their placeholder until
+          the result is known.</p>
+        <div id="knockout-bracket" class="knockout-bracket">Loading bracket&hellip;</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="tagline">World Cup Pal</p>
+      <p>Your friendly guide to the 2026 FIFA World Cup.</p>
+      <p>&copy; <span id="year"></span> World Cup Pal &middot; <a href="references.html">References</a></p>
+    </div>
+  </footer>
+</body>
+</html>

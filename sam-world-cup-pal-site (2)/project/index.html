@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="World Cup Pal is a live hub for the 2026 FIFA World Cup: all 12 groups with Pacific kickoff times, live scores, and matchups that update as games happen.">
+  <meta name="author" content="Samuel">
+  <title>World Cup Pal | 2026 World Cup Live Hub</title>
+  <link rel="icon" href="images/logo.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/main.js" defer></script>
+  <script src="scripts/data.js" defer></script>
+  <script src="scripts/home.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="images/logo.jpg" alt="" width="36" height="36"> World Cup Pal</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">&#9776;</button>
+      <nav class="main-nav" aria-label="Main">
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="favorites.html">Favorites</a></li>
+          <li><a href="bracket.html">Bracket</a></li>
+          <li><a href="teams.html">Teams</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container">
+        <h1>World Cup Pal</h1>
+        <p class="subtitle">2026 FIFA World Cup &middot; live group-stage hub</p>
+        <p id="countdown" class="countdown">Loading the latest&hellip;</p>
+        <a class="btn" href="favorites.html">Follow my teams</a>
+      </div>
+    </section>
+
+    <section class="ticker-section" aria-label="Latest and upcoming matches">
+      <div class="container">
+        <h2 class="ticker-title">Matchday</h2>
+        <div id="ticker" class="ticker">Loading matches&hellip;</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Groups</h2>
+        <p>All 12 groups with Pacific (PT) kickoff times and live scores. Hover over a group &mdash;
+          or tap it on a phone &mdash; to see every match.</p>
+        <div id="group-grid" class="group-grid">Loading groups&hellip;</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="tagline">World Cup Pal</p>
+      <p>Your friendly guide to the 2026 FIFA World Cup.</p>
+      <p>&copy; <span id="year"></span> World Cup Pal &middot; <a href="references.html">References</a></p>
+    </div>
+  </footer>
+</body>
+</html>

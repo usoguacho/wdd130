@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore popular national teams to watch at the 2026 FIFA World Cup. Filter teams by confederation, search by name, and save your favorites.">
+  <meta name="author" content="Samuel">
+  <title>Teams to Watch | World Cup Pal</title>
+  <link rel="icon" href="images/logo.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/main.js" defer></script>
+  <script src="scripts/teams.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/logo.jpg" alt="" width="36" height="36">
+        World Cup Pal
+      </a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">&#9776;</button>
+      <nav class="main-nav" aria-label="Main">
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="favorites.html">Favorites</a></li>
+          <li><a href="bracket.html">Bracket</a></li>
+          <li><a href="teams.html" class="active">Teams</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <h1>Teams to Watch</h1>
+        <p>The 2026 World Cup features 48 teams &mdash; the most ever. Below are some of the
+          national teams fans are most excited to follow. Use the filters to narrow the list by
+          confederation or search by name, and tap <strong>Save</strong> to keep track of your
+          favorites. Your favorites are stored in your browser, so they will still be here when
+          you come back.</p>
+
+        <div class="controls">
+          <div class="control-group">
+            <label for="confederation">Filter by confederation</label>
+            <select id="confederation">
+              <option value="all">All confederations</option>
+              <option value="CONCACAF">CONCACAF (North America)</option>
+              <option value="CONMEBOL">CONMEBOL (South America)</option>
+              <option value="UEFA">UEFA (Europe)</option>
+              <option value="AFC">AFC (Asia)</option>
+            </select>
+          </div>
+          <div class="control-group">
+            <label for="search">Search by name</label>
+            <input type="search" id="search" placeholder="e.g. Brazil">
+          </div>
+        </div>
+
+        <p id="result-count" class="result-count"></p>
+        <div id="team-grid" class="team-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="tagline">World Cup Pal</p>
+      <p>Your friendly guide to the 2026 FIFA World Cup.</p>
+      <p>&copy; <span id="year"></span> World Cup Pal &middot; <a href="references.html">References</a></p>
+    </div>
+  </footer>
+</body>
+</html>

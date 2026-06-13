@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Live scores and fixtures for my favorite 2026 World Cup teams: Argentina, France, USA, Mexico, Japan, and Brazil, with Pacific kickoff times.">
+  <meta name="author" content="Samuel">
+  <title>My Teams | World Cup Pal</title>
+  <link rel="icon" href="images/logo.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/main.js" defer></script>
+  <script src="scripts/data.js" defer></script>
+  <script src="scripts/favorites.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="images/logo.jpg" alt="" width="36" height="36"> World Cup Pal</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">&#9776;</button>
+      <nav class="main-nav" aria-label="Main">
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="favorites.html" class="active">Favorites</a></li>
+          <li><a href="bracket.html">Bracket</a></li>
+          <li><a href="teams.html">Teams</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <h1>My Teams</h1>
+        <p>Live scores and fixtures for the six teams I'm following. Scores refresh on their own as
+          matches happen. <span id="updated" class="hint"></span></p>
+        <div id="fav-grid" class="fav-grid">Loading&hellip;</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="tagline">World Cup Pal</p>
+      <p>Your friendly guide to the 2026 FIFA World Cup.</p>
+      <p>&copy; <span id="year"></span> World Cup Pal &middot; <a href="references.html">References</a></p>
+    </div>
+  </footer>
+</body>
+</html>
